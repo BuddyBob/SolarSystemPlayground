@@ -49,3 +49,5 @@ Disclaimer: Sun and Earth ratios innacurate for sake of display
 
 - Since the Sun doesn’t move, adjusting Earth’s mass won’t change the orbit time. For a more realistic simulation, both the Earth and the Sun should be allowed to move.
 - I understand rbits are far more complicated and deal with different forced other than gravity, velocity mass and acc. 
+
+<img width="1555" alt="Screenshot 2025-03-31 at 6 19 17 PM" src="https://github.com/user-attachments/assets/3166d6a1-72d0-42c9-97be-ce2f414474e0" />
