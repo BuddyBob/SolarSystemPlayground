@@ -17,3 +17,35 @@ Disclaimer: Sun and Earth ratios innacurate for sake of display
 
 - **Main Tool**
   You can adjust various parameters (like gravitational constant, Sun mass, Earth mass, time step, and Earth’s velocity) in real-time and see how they affect the orbit.
+
+
+## Functionality
+
+
+- **Time Step (TS):**
+- **UP Arrow:** Increase TS by 60 seconds.
+- **DOWN Arrow:** Decrease TS by 60 seconds (minimum 60 seconds).
+
+- **Earth's Initial Velocity:**
+- **RIGHT Arrow:** Increase velocity by 100 m/s.
+- **LEFT Arrow:** Decrease velocity by 100 m/s.
+
+- **Reset Simulation:**
+- **R Key:** Reset the simulation with the updated values.
+- **SPACE Bar:** Hard reset the simulation.
+
+- **Gravitational and Mass Controls:**
+- **G (Gravitational Constant):**
+ - **Z Key:** Increase G by 10%.
+ - **X Key:** Decrease G by 10%.
+- **Sun's Mass:**
+ - **C Key:** Increase Sun mass by 10%.
+ - **V Key:** Decrease Sun mass by 10%.
+- **Earth's Mass:**
+ - **B Key:** Increase Earth mass by 10%.
+ - **N Key:** Decrease Earth mass by 10%.
+
+## ISSUES
+
+- Since the Sun doesn’t move, adjusting Earth’s mass won’t change the orbit time. For a more realistic simulation, both the Earth and the Sun should be allowed to move.
+- I understand rbits are far more complicated and deal with different forced other than gravity, velocity mass and acc. 
