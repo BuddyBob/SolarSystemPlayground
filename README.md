@@ -10,7 +10,7 @@ Disclaimer: Sun and Earth ratios innacurate for sake of display
 - **What It Does:**  
   The simulation shows the Earth moving around the Sun using the gravitational force formula:  
   \[
-  F = G \times \frac{M_{\text{sun}} \times M_{\text{earth}}}{r^2}
+  F = G * (M_sun * M_earth) / r^2
   \]
   Then, Earth’s acceleration is calculated by \( a = \frac{F}{M_{\text{earth}}} \).  
   In this simulation, the Sun is fixed in the center, which means even if you change Earth's mass, the orbit time (about 365 days in sim-time) stays the same.
